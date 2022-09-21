@@ -1,0 +1,80 @@
+body {
+    margin : 0
+}
+
+h1, h2, h3 {
+    margin : 0;
+}
+
+#container{
+    max-width:400px;
+    width : 100%;
+    background-color:white;
+    margin: 0 auto;
+}
+
+
+.zone1{
+    width:100%;
+    background-color:#df2020;
+    padding-bottom : 12px;
+}
+.profil{
+    margin-top:50px;
+    display:flex;
+    justify-content:center;
+}
+.profil div {
+    width:200px;
+    border-radius:50%;
+    height:200px;
+    margin-top:-50px;
+    overflow : hidden;
+
+}
+.nom{
+    color:white;
+    text-align:center;
+}
+.nom h3{
+    color:black;
+}
+.icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    padding:10px;
+}
+.marge{
+    height:30px;
+    background-color:#df2020;
+    margin:0;
+}
+.zone1 span i {
+    margin-left: 12px;
+    border: 1px solid;
+    padding: 12px;
+    color: white;
+    background-color: #df2020;
+}
+.zone2 span i {
+    margin-left: 12px;
+    border: 1px solid;
+    padding: 12px;
+    border-radius: 50%;
+    color: white;
+    background-color: blue;
+}
+
+.zone2{
+    width:100%;
+    background-color:black;
+    color:white;
+    margin:0;
+    text-align:center;
+    padding-top : 12px;
+}
+.zone2 li{
+    text-align:justify;
+}
